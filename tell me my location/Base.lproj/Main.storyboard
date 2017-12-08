@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tell_me_my_location" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" pagingEnabled="YES" maximumZoomScale="8" translatesAutoresizingMaskIntoConstraints="NO" id="4DJ-If-av2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" image="map_office" translatesAutoresizingMaskIntoConstraints="NO" id="l2P-mB-f9C">
+                                        <rect key="frame" x="0.0" y="195" width="375" height="278"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="l2P-mB-f9C" secondAttribute="height" multiplier="375:278" id="D0d-2R-AtU"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="l2P-mB-f9C" firstAttribute="centerY" secondItem="4DJ-If-av2" secondAttribute="centerY" id="1J0-8z-bV7"/>
+                                    <constraint firstAttribute="bottom" secondItem="l2P-mB-f9C" secondAttribute="bottom" constant="194" id="8ei-Id-6WQ"/>
+                                    <constraint firstItem="l2P-mB-f9C" firstAttribute="leading" secondItem="4DJ-If-av2" secondAttribute="leading" id="MsT-Vw-ec9"/>
+                                    <constraint firstItem="l2P-mB-f9C" firstAttribute="centerY" secondItem="4DJ-If-av2" secondAttribute="centerY" id="Ozt-uJ-3yc"/>
+                                    <constraint firstAttribute="trailing" secondItem="l2P-mB-f9C" secondAttribute="trailing" id="PEf-db-Ge5"/>
+                                    <constraint firstItem="l2P-mB-f9C" firstAttribute="centerX" secondItem="4DJ-If-av2" secondAttribute="centerX" id="ccH-d9-Awu"/>
+                                    <constraint firstItem="l2P-mB-f9C" firstAttribute="centerX" secondItem="4DJ-If-av2" secondAttribute="centerX" id="u8h-Pd-bTw"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4DJ-If-av2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2kD-yy-5Ab"/>
+                            <constraint firstItem="4DJ-If-av2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="9IS-m7-FSb"/>
+                            <constraint firstAttribute="trailing" secondItem="4DJ-If-av2" secondAttribute="trailing" id="BEN-YH-m6P"/>
+                            <constraint firstItem="4DJ-If-av2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gho-4M-YeX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="ScrollView" destination="4DJ-If-av2" id="ikT-zo-738"/>
+                        <outlet property="map" destination="l2P-mB-f9C" id="775-cl-1Cd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-103.2" y="-211.84407796101951"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="map_office" width="1024" height="759"/>
+    </resources>
+</document>
