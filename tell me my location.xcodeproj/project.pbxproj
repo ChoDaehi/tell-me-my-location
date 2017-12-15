@@ -15,6 +15,7 @@
 		1013BD121FD68C3D003F7DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1013BD101FD68C3D003F7DC4 /* LaunchScreen.storyboard */; };
 		1013BD1D1FD68C3E003F7DC4 /* tell_me_my_locationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1013BD1C1FD68C3E003F7DC4 /* tell_me_my_locationTests.swift */; };
 		1013BD281FD68C3E003F7DC4 /* tell_me_my_locationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1013BD271FD68C3E003F7DC4 /* tell_me_my_locationUITests.swift */; };
+		102CFD101FDA663B001E0CE3 /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102CFD0F1FDA663B001E0CE3 /* Circles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1013BD231FD68C3E003F7DC4 /* tell me my locationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tell me my locationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1013BD271FD68C3E003F7DC4 /* tell_me_my_locationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tell_me_my_locationUITests.swift; sourceTree = "<group>"; };
 		1013BD291FD68C3E003F7DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102CFD0F1FDA663B001E0CE3 /* Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				1013BD041FD68C3D003F7DC4 /* AppDelegate.swift */,
 				1013BD061FD68C3D003F7DC4 /* ViewController.swift */,
+				102CFD0F1FDA663B001E0CE3 /* Circles.swift */,
 				1013BD081FD68C3D003F7DC4 /* Main.storyboard */,
 				1013BD0E1FD68C3D003F7DC4 /* Assets.xcassets */,
 				1013BD101FD68C3D003F7DC4 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1013BD071FD68C3D003F7DC4 /* ViewController.swift in Sources */,
+				102CFD101FDA663B001E0CE3 /* Circles.swift in Sources */,
 				1013BD051FD68C3D003F7DC4 /* AppDelegate.swift in Sources */,
 				1013BD0D1FD68C3D003F7DC4 /* tell_me_my_location.xcdatamodeld in Sources */,
 			);
